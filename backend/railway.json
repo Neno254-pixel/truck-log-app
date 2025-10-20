@@ -1,0 +1,16 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python manage.py migrate && gunicorn trucklog.wsgi",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10,
+    "volumeMounts": [
+      {
+        "mountPath": "/app/media",
+        "volumeName": "media_files"
+      }
+    ]
+  }
+}
