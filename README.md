@@ -4,7 +4,7 @@ A professional truck driver log book application that generates compliant Hours 
 
 ## Live Demo
 
-**Frontend:** https://www.albytechs.online  
+**Frontend:** https://frontend-two-ochre-86.vercel.app  
 **Backend API:** https://track-app-production-9522.up.railway.app
 
 ## Features
