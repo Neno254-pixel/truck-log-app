@@ -1,0 +1,7 @@
+{
+  "current_location": "New York, NY",
+  "pickup_location": "Philadelphia, PA",
+  "dropoff_location": "Boston, MA",
+  "current_cycle_hours": 5,
+  "use_sleeper_berth": false
+}
